@@ -1,5 +1,5 @@
 {
-  "name": "user-information-nextjs",
+  "name": "auth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021",
-    "next": "15.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "15.0.1"
+    "@lucia-auth/adapter-sqlite": "^3.0.2",
+    "@types/react": "^18.3.3",
+    "better-sqlite3": "^9.4.3",
+    "lucia": "^3.2.2",
+    "next": "^15.0.2-canary.10",
+    "react": "^19.0.0-rc-02c0e824-20241028",
+    "react-dom": "^19.0.0-rc-02c0e824-20241028"
   }
 }
